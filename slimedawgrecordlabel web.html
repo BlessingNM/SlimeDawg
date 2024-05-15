@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-icons@1.13.12/iconfont/material-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/other.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo-sm.jpg"
+      type="image/x-icon"
+    />
+
+    <title>SLIME DAWG | Home</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav id="header">
+        <div class="nav-logo">
+          <img
+            id="nimg"
+            src="./assets/img/logo.jpg"
+            width="300px"
+            height="100px"
+          />
+          <p class="nav-name" id="name">RECORD LABEL</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#signedartists" class="nav-link">SignedArtists</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <img class="mobi" src="./assets/img/img4.jpg" />
+        <section class="top-info" id="home">
+          <div class="top-txt">
+            <h5>We Promote Talent.</h5>
+            <div class="top-txt-sms">
+              <p>CHECK OUT SIGNED ARTISTS...</p>
+            </div>
+            <button class="card-btn-w" onclick="window.location.href='#signedartists'">
+              SignedArtists
+            </button>
+            <button class="card-btn-w" onclick="window.location.href='#about'">
+              About Us
+            </button>
+          </div>
+          <div class="center-img">
+            <img src="./assets/img/img5.jpg" />
+          </div>
+        </section>
+        <section class="services">
+          <div class="all-txt">
+            <h1 class="proj-title">OUR SERVICES</h1>
+          </div>
+          <div class="card cr">
+            <div class="row ico">
+              <img src="./assets/img/img11 (2).png" />
+              <p>Recording Contract </p>
+            </div>
+            <div class="row ico">
+              <img src="./assets/img/img11 (4).png" />
+              <p>Online Music Marketing</p>
+            </div>
+            <div class="row ico">
+              <img src="./assets/img/img11 (1).jpg" />
+              <p>Video Shooting</p>
+            </div>
+            <div class="row ico">
+              <img src="./assets/img/img11 (1).png" />
+              <p>Live sessions</p>
+            </div>
+            <div class="row ico">
+              <img src="./assets/img/img6.jpg" />
+              <p>PhotoShoot</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="about">
+          <div class="card-txt">
+            <h1>About Us</h1>
+            <div class="top-txt-sm mg">
+              <p>
+                SLIME DAWG is a Recording Label that focuses on raising upcoming
+                musicians to the spotlight.We offer recording contracts, live recording
+                sessions ,digital marketing services and photoshoot. Slime Dawg was established 
+                in 2023 late June being found by Mr Blessing Mpukuta. We are located in Norton by 
+                KOSHEN DRIVE , 11475 .
+              </p>
+            </div>
+            <button type="button" class="card-btn">Read more...</button>
+          </div>
+        </section>
+        <section class="signedartists" id="#signedartists">
+          <div class="all-txt">
+            <h1 class="proj-title">SignedArtists</h1>
+            <h3 class="proj-txt-sub proj-title mtop">
+            We haved managed to sign three Hip Hop musicians under our Label at the moment
+            and they from different locations. Distance is not a barrier , all we look for is TALENT 
+            </h3>
+          </div>
+          <div class="contact-img">
+            <div class="project-card">
+              <img class="proj-card" src="./assets/img/img2.jpg" />
+              <h2 class="proj-txt">BABY STOECH</h2>
+              <h2 class="proj-txt-sub">From Norton</h2>
+            </div>
+            <div class="project-card">
+              <img class="proj-card" src="./assets/img/img5.jpg" />
+              <h2 class="proj-txt">P.O.Y</h2>
+              <h2 class="proj-txt-sub">From Bulawayo</h2>
+            </div>
+            <div class="project-card">
+              <img class="proj-card" src="./assets/img/img6.jpg" />
+              <h2 class="proj-txt">YOUNG GEMINI</h2>
+              <h2 class="proj-txt-sub">From Harare</h2>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <div class="all-txt">
+            <h1 class="proj-title">CONTACT US</h1>
+            <h3 class="proj-txt-sub proj-title mtop">
+              We are ready to assist and build a relationship with you.
+            </h3>
+            <img class="mobi" src="./assets/img/img11 (3).png" />
+          </div>
+          <div class="form">
+            <img class="form-img" src="./assets/img/logo.jpg" />
+            <form>
+              <div class="cont-items">
+                <label>Name</label><br />
+                <input type="text" name="name" placeholder="eg Paul" />
+              </div>
+              <div class="cont-items">
+                <label>Email</label><br />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="someone@example.com"
+                />
+              </div>
+              <div class="cont-items">
+                <label>Message</label><br />
+                <input type="text" name="name" placeholder="Your Message" />
+              </div>
+              <button class="card-btn">Submit</button>
+            </form>
+          </div>
+          <div class="card-2 dr">
+            <div class="row">
+              <h2>Call Us</h2>
+              <p><i class="uil uil-phone"></i> +263 788227383</p>
+            </div>
+            <div class="row">
+              <h2></i>Email Us</h2>
+              <p>
+                <i class="uil uil-envelope-alt"></i> SlimeDawgmain@gmail.com
+              </p>
+            </div>
+            <div class="row">
+              <h2>Visit Us</h2>
+              <p>
+                <i class="uil uil-store"></i> 11475, Koshen dr, Norton
+                Zimbabwe
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-social-icons">
+        <div class="icon">
+          <a href="https://www.facebook.com/profile.php?id=100086186892544"
+            ><i class="uil uil-facebook-f"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a
+            href="https://www.instagram.com/lee_log_enterprise_za/?fbclid=IwAR0nu9LTN519PAqQuOGFyuhNXxijJ5Rz4fx5c0rZn1OmHY1L4QVPBVwZW5E"
+            ><i class="uil uil-instagram"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a href="https://wa.me/263788227383"
+            ><i class="uil uil-whatsapp"></i
+          ></a>
+        </div>
+        <div class="icon">
+          <a href="mailto:SlimeDawgmain@gmail.com"
+            ><i class="uil uil-envelope-alt"></i
+          ></a>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p>SLIMEDAWGmain &COPY;2024</p>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
